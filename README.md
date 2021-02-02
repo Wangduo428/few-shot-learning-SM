@@ -8,18 +8,18 @@ Currently we only provide the trained model parameters and evaluation code with 
 
 For single-domain FSL, we present the results on 3 FSL datasets with ResNet-12 (Same as [this repo](https://github.com/kjunelee/MetaOptNet)). Average accuracy over 2000 random tasks and 95% confidence intervals are given.
 
-|    Datasets    | 1-Shot 5-Way | 5-Shot 5-Way |
-|  miniImagenet  | 69.48+-0.46  | 84.51+-0.30  |
-| tieredImagenet | 71.71+-0.49  | 85.74+-0.33  |
-|      cub       | 84.11+-0.39  | 93.61+-0.19  |
+- |    Datasets    | 1-Shot 5-Way | 5-Shot 5-Way |
+- |  miniImagenet  | 69.48+-0.46  | 84.51+-0.30  |
+- | tieredImagenet | 71.71+-0.49  | 85.74+-0.33  |
+- |      cub       | 84.11+-0.39  | 93.61+-0.19  |
 
 ## Cross-domain Few-shot Learning Results
 
 For cross-domain FSL, we present results of training on miniImagenet and testing on 2 FSL datasets with ResNet-10 (Same as [this repo](https://github.com/mileyan/simple_shot)). Average accuracy over 2000 random tasks and 95% confidence intervals are given.
 
-|   Datasets  | 1-Shot 5-Way | 5-Shot 5-Way |
-|   mini2cub  | 50.56+-0.45  | 71.04+-0.39  |
-|   mini2cars | 37.95+-0.38  | 53.59+-0.42  |
+- |   Datasets  | 1-Shot 5-Way | 5-Shot 5-Way |
+- |   mini2cub  | 50.56+-0.45  | 71.04+-0.39  |
+- |   mini2cars | 37.95+-0.38  | 53.59+-0.42  |
 
 ## Prerequisites
 
@@ -231,7 +231,7 @@ which will give:
 
 ## Acknowledgment
 We thank the following repos providing helpful components/functions in our work.
-- [CAN](https://github.com/kjunelee/MetaOptNet/)
+- [CAN](https://github.com/blue-blue272/fewshot-CAN)
 - [CrossDomainFewShot](https://github.com/hytseng0509/CrossDomainFewShot)
-- [MetaOptNet](https://github.com/kjunelee/MetaOptNet/)
+- [MetaOptNet](https://github.com/kjunelee/MetaOptNet)
 
